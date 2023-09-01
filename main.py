@@ -20,3 +20,8 @@ print("hello world")
 # print(not is_valid)  # not -> інверсія, якщо значення False стане True, і навпаки
 
 # print("hello" in "hello world"
+hours= int(input("Enter hours: "))
+if hours >= 12:
+    print("PM")
+else:
+    print("AM")
